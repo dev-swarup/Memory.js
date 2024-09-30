@@ -1,0 +1,37 @@
+{
+  "name": "memory.js",
+  "version": "v1.0.0",
+  "description": "Node.js Hacking library for making PC game trainers.",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "gypfile": true,
+  "scripts": {
+    "install": "node ./scripts/install.js",
+    "build64": "node-gyp clean configure build --arch=x64",
+    "build32": "node-gyp clean configure build --arch=ia32"
+  },
+  "dependencies": {
+    "eslint": "^8.5.0",
+    "node-addon-api": "^3.2.1",
+    "eslint-config-airbnb-base": "^12.1.0"
+  },
+  "keywords": [
+    "addon",
+    "memory",
+    "management",
+    "writing",
+    "hacking",
+    "reading",
+    "processes"
+  ],
+  "author": "dev-swarup",
+  "license": "LGPL-2.1-only",
+  "homepage": "https://github.com/dev-swarup/Memory.js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-swarup/Memory.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dev-swarup/Memory.js/issues"
+  }
+}
